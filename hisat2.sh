@@ -30,7 +30,7 @@ cd ~
 # The -ss flag is used to specify the file we just created that contains the known splice sites in our genome
 # The --exon flag is used to specify the file we just created that contains the known exons in our genome
 # Then, we just list the file containing our genome (in fasta format), and the desired "base name" for our index. The program is going to create several files, but they'll all start with this name. 
-# hisat2-build -p 8 -ss splice_sites.hisat --exon exons.hisat Apoly_genome.fa Apoly_genome
+# hisat2-build -p 8 --ss splice_sites.hisat --exon exons.hisat Apoly_genome.fa Apoly_genome
 
 # The commented out lines above allow us to build an index, but this can be time consuming, so we've run this code for you ahead of time. 
 
